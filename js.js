@@ -3,7 +3,7 @@ function greet(){
     var last = document.getElementById('lastname').value;
    first = first.toUpperCase();
    last = last.toUpperCase();
-   document.getElementById('fname').innerText =  first;
-   document.getElementById('lname').innerText = last;
+   document.getElementById('fname').innerText = "WELCOME "+first;
+   document.getElementById('lname').innerText =  last ;
     
     }
